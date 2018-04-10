@@ -1,9 +1,9 @@
 package controllers
 
-import play.api.mvc.Controller
+import play.api.mvc.{Action, Controller}
 
 class WelcomeController extends Controller {
   def welcome() = Action {
-    OK
+  Ok
   }
 }
